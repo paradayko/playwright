@@ -38,6 +38,10 @@ export default defineConfig({
     ignoreHTTPSErrors: true,
     video: 'on-first-retry',
     trace: 'on-first-retry',
+    httpCredentials: {
+      username: 'guest',
+      password: 'welcome2qauto',
+    }
   },
 
   /* Configure projects for major browsers */
