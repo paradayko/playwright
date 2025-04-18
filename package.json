@@ -1,0 +1,27 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:headed:safari": "playwright test --headed --project=webkit",
+    "test:headed:chromium": "playwright test --headed --project=chromium",
+    "test:headed:chrome": "playwright test --headed --project='Google Chrome' --workers=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paradayko/playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paradayko/playwright/issues"
+  },
+  "homepage": "https://github.com/paradayko/playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
